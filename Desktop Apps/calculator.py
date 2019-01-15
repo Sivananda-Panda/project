@@ -15,7 +15,7 @@ def get_operation(operator):
     display.insert(i,operator)
     i+=length
 
-#to get dine the calculations
+#to get done the calculations
 def calculate():
     entire_string=display.get()
     try:
@@ -77,12 +77,12 @@ Button(root,text="/",width=2,command=lambda :get_operation('/')).grid(row=5,colu
 
 #adding new operations
 Button(root,text="pi",width=2,command=lambda :get_operation('*3.14')).grid(row=2,column=4)
-Button(root,text="%",width=2,command=lambda :get_operation('%')).grid(row=3,column=4)
+Button(root,text="%",width=2,command=lambda :get_operation('%')).grid(row=3,column=4) ##not working properly. You Guys are free to suggest.
 Button(root,text="(",width=2,command=lambda :get_operation('(')).grid(row=4,column=4)
 Button(root,text="exp",width=2,command=lambda :get_operation('**')).grid(row=5,column=4)
 
 Button(root,text="<-",width=2,command=lambda :undo()).grid(row=2,column=5)
-Button(root,text="x!",width=2).grid(row=3,column=5)
+Button(root,text="x!",width=2).grid(row=3,column=5) # Not written code for factorial function. You guys can suggest.
 Button(root,text=")",width=2,command=lambda :get_operation(')')).grid(row=4,column=5)
 Button(root,text="^2",width=2,command=lambda :get_operation('**2')).grid(row=5,column=5)
 
