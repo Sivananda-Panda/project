@@ -12,3 +12,6 @@
         some informations, you can delete it and store your own informations. You need Python to run it.
    *   Also I have created a standalone app for Windows. Just download the app (Connecting front end to backend.exe) file and install it
         in your windows system. You dont even require Python to run it.
+
+#### 3. [Dictionary App](https://github.com/Sivananda-Panda/project/tree/master/Desktop%20Apps/dictionary%20app)
+   *   A small Desktop App which is a fully functioning Dictionary. As it is not integrated with database Please do change the code in             Back_end.py(set the path of the Json file. Download the codes and keep the Json file in the same Directory).
