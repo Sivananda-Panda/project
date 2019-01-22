@@ -2,6 +2,11 @@
 
 ## Small python Projects. Learning, Developing and enhancing.
 
+### Web Apps.
+
+#### 1. [Web Scrapping](https://github.com/Sivananda-Panda/project/tree/master/Web%20Apps/Web%20Scrapping)
+   *   Scrapping the Price, Address, Size, Style and No of Beds of the Properties of Bangalore and storing it in a csv file. 
+
 ### Desktop Apps.
 
 #### 1. [Calculator.](https://github.com/Sivananda-Panda/project/blob/master/Desktop%20Apps/calculator.py)
