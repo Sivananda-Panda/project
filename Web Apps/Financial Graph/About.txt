@@ -1,0 +1,2 @@
+A web based financial graph(Candle Stick Chart) Which gives
+more information aboutstock prices of a pertikcular company.
